@@ -1,0 +1,458 @@
+Starting rpc server at 0.0.0.0:10001...
+{"@timestamp":"2025-09-15T12:58:15.498+08:00","caller":"serverinterceptors/statinterceptor.go:90","content":"10.1.12.4:60852 - /meeting.Meeting/HistoryMeeting - {\"userId\":\"274877906947\"}","duration":"41.7ms","level":"info","span":"fbef13e60bfc713c","trace":"8e995967a558cf17fce9e9aa09694fe3"}
+{"@timestamp":"2025-09-15T12:58:23.118+08:00","caller":"serverinterceptors/statinterceptor.go:90","content":"10.1.12.4:60852 - /meeting.Meeting/CreateMeeting - {\"meetingName\":\"66666\",\"hostName\":\"scylar\",\"hostId\":\"274877906947\"}","duration":"191.3ms","level":"info","span":"54fcca5675008445","trace":"6907b525f1732ffed54a071def90d29e"}
+{"@timestamp":"2025-09-15T12:58:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=5.5Mi, TotalAlloc=11.0Mi, Sys=17.6Mi, NumGC=5","level":"stat"}
+{"@timestamp":"2025-09-15T12:58:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 2, pass: 2, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T12:59:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 116.0ms, med: 191.3ms, 90th: 191.3ms, 99th: 191.3ms, 99.9th: 191.3ms","level":"stat"}
+{"@timestamp":"2025-09-15T12:59:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=5.0Mi, TotalAlloc=13.9Mi, Sys=17.6Mi, NumGC=6","level":"stat"}
+{"@timestamp":"2025-09-15T12:59:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:00:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:00:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=8.0Mi, TotalAlloc=16.9Mi, Sys=17.6Mi, NumGC=6","level":"stat"}
+{"@timestamp":"2025-09-15T13:00:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 5, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:01:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:01:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=7.6Mi, TotalAlloc=19.9Mi, Sys=17.6Mi, NumGC=7","level":"stat"}
+{"@timestamp":"2025-09-15T13:01:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 5, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:02:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:02:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=7.2Mi, TotalAlloc=22.8Mi, Sys=17.6Mi, NumGC=8","level":"stat"}
+{"@timestamp":"2025-09-15T13:02:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:03:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:03:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=5.6Mi, TotalAlloc=25.9Mi, Sys=21.6Mi, NumGC=9","level":"stat"}
+{"@timestamp":"2025-09-15T13:03:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:04:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:04:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=8.6Mi, TotalAlloc=28.8Mi, Sys=21.6Mi, NumGC=9","level":"stat"}
+{"@timestamp":"2025-09-15T13:04:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:05:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:05:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 7m, MEMORY: Alloc=7.1Mi, TotalAlloc=31.8Mi, Sys=21.6Mi, NumGC=10","level":"stat"}
+{"@timestamp":"2025-09-15T13:05:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 6, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:06:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:06:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=5.4Mi, TotalAlloc=34.7Mi, Sys=21.6Mi, NumGC=11","level":"stat"}
+{"@timestamp":"2025-09-15T13:06:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:07:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:07:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 15m, MEMORY: Alloc=8.4Mi, TotalAlloc=37.7Mi, Sys=21.6Mi, NumGC=11","level":"stat"}
+{"@timestamp":"2025-09-15T13:07:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 14, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:08:15.499+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:08:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=6.9Mi, TotalAlloc=40.7Mi, Sys=21.6Mi, NumGC=12","level":"stat"}
+{"@timestamp":"2025-09-15T13:08:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:09:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:09:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=5.2Mi, TotalAlloc=43.7Mi, Sys=21.6Mi, NumGC=13","level":"stat"}
+{"@timestamp":"2025-09-15T13:09:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:10:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:10:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 6m, MEMORY: Alloc=8.2Mi, TotalAlloc=46.7Mi, Sys=21.6Mi, NumGC=13","level":"stat"}
+{"@timestamp":"2025-09-15T13:10:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 5, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:11:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:11:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=6.6Mi, TotalAlloc=49.6Mi, Sys=21.6Mi, NumGC=14","level":"stat"}
+{"@timestamp":"2025-09-15T13:11:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:12:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:12:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=5.0Mi, TotalAlloc=52.6Mi, Sys=21.6Mi, NumGC=15","level":"stat"}
+{"@timestamp":"2025-09-15T13:12:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 5, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:13:15.499+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:13:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=8.1Mi, TotalAlloc=55.6Mi, Sys=21.6Mi, NumGC=15","level":"stat"}
+{"@timestamp":"2025-09-15T13:13:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:14:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:14:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=6.4Mi, TotalAlloc=58.6Mi, Sys=21.6Mi, NumGC=16","level":"stat"}
+{"@timestamp":"2025-09-15T13:14:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:15:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:15:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=4.8Mi, TotalAlloc=61.6Mi, Sys=21.6Mi, NumGC=17","level":"stat"}
+{"@timestamp":"2025-09-15T13:15:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:16:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:16:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=7.8Mi, TotalAlloc=64.5Mi, Sys=21.6Mi, NumGC=17","level":"stat"}
+{"@timestamp":"2025-09-15T13:16:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:17:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:17:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=6.1Mi, TotalAlloc=67.5Mi, Sys=21.6Mi, NumGC=18","level":"stat"}
+{"@timestamp":"2025-09-15T13:17:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:18:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:18:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 6m, MEMORY: Alloc=9.1Mi, TotalAlloc=70.5Mi, Sys=21.6Mi, NumGC=18","level":"stat"}
+{"@timestamp":"2025-09-15T13:18:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:19:15.499+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:19:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=7.4Mi, TotalAlloc=73.5Mi, Sys=21.6Mi, NumGC=19","level":"stat"}
+{"@timestamp":"2025-09-15T13:19:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:20:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:20:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 7m, MEMORY: Alloc=5.7Mi, TotalAlloc=76.4Mi, Sys=21.6Mi, NumGC=20","level":"stat"}
+{"@timestamp":"2025-09-15T13:20:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 5, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:21:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:21:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=8.6Mi, TotalAlloc=79.4Mi, Sys=21.6Mi, NumGC=20","level":"stat"}
+{"@timestamp":"2025-09-15T13:21:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:22:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:22:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 3m, MEMORY: Alloc=6.9Mi, TotalAlloc=82.4Mi, Sys=21.6Mi, NumGC=21","level":"stat"}
+{"@timestamp":"2025-09-15T13:22:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 2, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:23:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:23:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=5.3Mi, TotalAlloc=85.4Mi, Sys=21.6Mi, NumGC=22","level":"stat"}
+{"@timestamp":"2025-09-15T13:23:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:24:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:24:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 6m, MEMORY: Alloc=8.3Mi, TotalAlloc=88.4Mi, Sys=21.6Mi, NumGC=22","level":"stat"}
+{"@timestamp":"2025-09-15T13:24:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 5, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:25:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:25:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=6.8Mi, TotalAlloc=91.3Mi, Sys=21.6Mi, NumGC=23","level":"stat"}
+{"@timestamp":"2025-09-15T13:25:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:26:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:26:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=5.0Mi, TotalAlloc=94.3Mi, Sys=21.6Mi, NumGC=24","level":"stat"}
+{"@timestamp":"2025-09-15T13:26:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:27:15.499+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:27:31.932+08:00","caller":"serverinterceptors/statinterceptor.go:90","content":"10.1.12.4:51654 - /meeting.Meeting/HistoryMeeting - {\"userId\":\"274877906947\"}","duration":"11.3ms","level":"info","span":"fa0cb5e05019dddf","trace":"66152500e5ab47f3a1d484fd114bdc54"}
+{"@timestamp":"2025-09-15T13:27:53.786+08:00","caller":"serverinterceptors/statinterceptor.go:90","content":"10.1.12.4:51654 - /meeting.Meeting/CreateMeeting - {\"meetingName\":\"awdijqhwe\",\"hostName\":\"scylar\",\"hostId\":\"274877906947\"}","duration":"189.7ms","level":"info","span":"87478667f7212ada","trace":"a2c6b18eeaf629966ee0e45c25c1b190"}
+{"@timestamp":"2025-09-15T13:27:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=8.1Mi, TotalAlloc=97.4Mi, Sys=21.6Mi, NumGC=24","level":"stat"}
+{"@timestamp":"2025-09-15T13:27:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 2, pass: 2, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:28:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 100.5ms, med: 189.7ms, 90th: 189.7ms, 99th: 189.7ms, 99.9th: 189.7ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:28:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=6.6Mi, TotalAlloc=100.4Mi, Sys=21.6Mi, NumGC=25","level":"stat"}
+{"@timestamp":"2025-09-15T13:28:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:29:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:29:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=4.8Mi, TotalAlloc=103.3Mi, Sys=21.6Mi, NumGC=26","level":"stat"}
+{"@timestamp":"2025-09-15T13:29:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 5, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:30:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:30:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=7.8Mi, TotalAlloc=106.3Mi, Sys=21.6Mi, NumGC=26","level":"stat"}
+{"@timestamp":"2025-09-15T13:30:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 5, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:31:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:31:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 6m, MEMORY: Alloc=6.2Mi, TotalAlloc=109.3Mi, Sys=21.6Mi, NumGC=27","level":"stat"}
+{"@timestamp":"2025-09-15T13:31:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 5, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:32:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:32:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=4.8Mi, TotalAlloc=112.3Mi, Sys=21.6Mi, NumGC=28","level":"stat"}
+{"@timestamp":"2025-09-15T13:32:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:33:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:33:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 7m, MEMORY: Alloc=7.7Mi, TotalAlloc=115.3Mi, Sys=21.6Mi, NumGC=28","level":"stat"}
+{"@timestamp":"2025-09-15T13:33:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 5, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:34:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:34:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 6m, MEMORY: Alloc=6.1Mi, TotalAlloc=118.2Mi, Sys=21.6Mi, NumGC=29","level":"stat"}
+{"@timestamp":"2025-09-15T13:34:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 5, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:35:15.499+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:35:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=9.1Mi, TotalAlloc=121.2Mi, Sys=21.6Mi, NumGC=29","level":"stat"}
+{"@timestamp":"2025-09-15T13:35:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:36:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:36:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=7.6Mi, TotalAlloc=124.2Mi, Sys=21.6Mi, NumGC=30","level":"stat"}
+{"@timestamp":"2025-09-15T13:36:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:37:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:37:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=6.0Mi, TotalAlloc=127.2Mi, Sys=21.6Mi, NumGC=31","level":"stat"}
+{"@timestamp":"2025-09-15T13:37:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:38:15.499+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:38:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=9.0Mi, TotalAlloc=130.1Mi, Sys=21.6Mi, NumGC=31","level":"stat"}
+{"@timestamp":"2025-09-15T13:38:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:39:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:39:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 3m, MEMORY: Alloc=7.4Mi, TotalAlloc=133.1Mi, Sys=21.6Mi, NumGC=32","level":"stat"}
+{"@timestamp":"2025-09-15T13:39:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:40:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:40:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 6m, MEMORY: Alloc=5.7Mi, TotalAlloc=136.1Mi, Sys=21.6Mi, NumGC=33","level":"stat"}
+{"@timestamp":"2025-09-15T13:40:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 5, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:41:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:41:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 6m, MEMORY: Alloc=8.6Mi, TotalAlloc=139.0Mi, Sys=21.6Mi, NumGC=33","level":"stat"}
+{"@timestamp":"2025-09-15T13:41:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 5, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:42:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:42:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 6m, MEMORY: Alloc=7.0Mi, TotalAlloc=142.1Mi, Sys=21.6Mi, NumGC=34","level":"stat"}
+{"@timestamp":"2025-09-15T13:42:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 6, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:43:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:43:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=5.3Mi, TotalAlloc=145.0Mi, Sys=21.6Mi, NumGC=35","level":"stat"}
+{"@timestamp":"2025-09-15T13:43:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:44:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:44:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=8.3Mi, TotalAlloc=148.0Mi, Sys=21.6Mi, NumGC=35","level":"stat"}
+{"@timestamp":"2025-09-15T13:44:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 5, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:45:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:45:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 3m, MEMORY: Alloc=6.5Mi, TotalAlloc=150.9Mi, Sys=21.6Mi, NumGC=36","level":"stat"}
+{"@timestamp":"2025-09-15T13:45:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:46:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:46:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 6m, MEMORY: Alloc=4.8Mi, TotalAlloc=153.9Mi, Sys=21.6Mi, NumGC=37","level":"stat"}
+{"@timestamp":"2025-09-15T13:46:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 6, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:47:15.499+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:47:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=7.8Mi, TotalAlloc=156.9Mi, Sys=21.6Mi, NumGC=37","level":"stat"}
+{"@timestamp":"2025-09-15T13:47:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:48:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:48:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=6.2Mi, TotalAlloc=159.9Mi, Sys=21.6Mi, NumGC=38","level":"stat"}
+{"@timestamp":"2025-09-15T13:48:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:49:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:49:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=9.1Mi, TotalAlloc=162.9Mi, Sys=21.6Mi, NumGC=38","level":"stat"}
+{"@timestamp":"2025-09-15T13:49:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:50:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:50:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=7.4Mi, TotalAlloc=165.8Mi, Sys=21.6Mi, NumGC=39","level":"stat"}
+{"@timestamp":"2025-09-15T13:50:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:51:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:51:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 3m, MEMORY: Alloc=5.6Mi, TotalAlloc=168.8Mi, Sys=21.6Mi, NumGC=40","level":"stat"}
+{"@timestamp":"2025-09-15T13:51:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 2, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:52:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:52:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=8.6Mi, TotalAlloc=171.8Mi, Sys=21.6Mi, NumGC=40","level":"stat"}
+{"@timestamp":"2025-09-15T13:52:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:53:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:53:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=6.9Mi, TotalAlloc=174.8Mi, Sys=21.6Mi, NumGC=41","level":"stat"}
+{"@timestamp":"2025-09-15T13:53:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 5, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:54:15.499+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:54:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=5.3Mi, TotalAlloc=177.8Mi, Sys=21.6Mi, NumGC=42","level":"stat"}
+{"@timestamp":"2025-09-15T13:54:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:55:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:55:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=8.2Mi, TotalAlloc=180.7Mi, Sys=21.6Mi, NumGC=42","level":"stat"}
+{"@timestamp":"2025-09-15T13:55:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 5, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:56:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:56:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 3m, MEMORY: Alloc=6.5Mi, TotalAlloc=183.7Mi, Sys=21.6Mi, NumGC=43","level":"stat"}
+{"@timestamp":"2025-09-15T13:56:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:57:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:57:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=4.8Mi, TotalAlloc=186.6Mi, Sys=21.6Mi, NumGC=44","level":"stat"}
+{"@timestamp":"2025-09-15T13:57:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 5, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:58:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:58:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=7.9Mi, TotalAlloc=189.7Mi, Sys=21.6Mi, NumGC=44","level":"stat"}
+{"@timestamp":"2025-09-15T13:58:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T13:59:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T13:59:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 6m, MEMORY: Alloc=6.2Mi, TotalAlloc=192.6Mi, Sys=21.6Mi, NumGC=45","level":"stat"}
+{"@timestamp":"2025-09-15T13:59:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:00:15.499+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:00:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=9.2Mi, TotalAlloc=195.6Mi, Sys=21.6Mi, NumGC=45","level":"stat"}
+{"@timestamp":"2025-09-15T14:00:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:01:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:01:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=7.5Mi, TotalAlloc=198.6Mi, Sys=21.6Mi, NumGC=46","level":"stat"}
+{"@timestamp":"2025-09-15T14:01:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 5, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:02:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:02:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=5.8Mi, TotalAlloc=201.5Mi, Sys=21.6Mi, NumGC=47","level":"stat"}
+{"@timestamp":"2025-09-15T14:02:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:03:15.499+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:03:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 3m, MEMORY: Alloc=8.8Mi, TotalAlloc=204.5Mi, Sys=21.6Mi, NumGC=47","level":"stat"}
+{"@timestamp":"2025-09-15T14:03:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:04:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:04:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 3m, MEMORY: Alloc=7.1Mi, TotalAlloc=207.4Mi, Sys=21.6Mi, NumGC=48","level":"stat"}
+{"@timestamp":"2025-09-15T14:04:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:05:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:05:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=5.4Mi, TotalAlloc=210.4Mi, Sys=21.6Mi, NumGC=49","level":"stat"}
+{"@timestamp":"2025-09-15T14:05:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 5, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:06:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:06:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 3m, MEMORY: Alloc=8.4Mi, TotalAlloc=213.4Mi, Sys=21.6Mi, NumGC=49","level":"stat"}
+{"@timestamp":"2025-09-15T14:06:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:07:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:07:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 3m, MEMORY: Alloc=6.7Mi, TotalAlloc=216.3Mi, Sys=21.6Mi, NumGC=50","level":"stat"}
+{"@timestamp":"2025-09-15T14:07:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 2, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:08:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:08:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 3m, MEMORY: Alloc=5.1Mi, TotalAlloc=219.3Mi, Sys=21.6Mi, NumGC=51","level":"stat"}
+{"@timestamp":"2025-09-15T14:08:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 2, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:09:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:09:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 2m, MEMORY: Alloc=8.1Mi, TotalAlloc=222.3Mi, Sys=21.6Mi, NumGC=51","level":"stat"}
+{"@timestamp":"2025-09-15T14:09:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:10:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:10:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 3m, MEMORY: Alloc=6.5Mi, TotalAlloc=225.3Mi, Sys=21.6Mi, NumGC=52","level":"stat"}
+{"@timestamp":"2025-09-15T14:10:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:11:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:11:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=4.8Mi, TotalAlloc=228.3Mi, Sys=21.6Mi, NumGC=53","level":"stat"}
+{"@timestamp":"2025-09-15T14:11:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:12:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:12:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=7.8Mi, TotalAlloc=231.2Mi, Sys=21.6Mi, NumGC=53","level":"stat"}
+{"@timestamp":"2025-09-15T14:12:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:13:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:13:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 2m, MEMORY: Alloc=6.2Mi, TotalAlloc=234.2Mi, Sys=21.6Mi, NumGC=54","level":"stat"}
+{"@timestamp":"2025-09-15T14:13:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:14:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:14:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=9.1Mi, TotalAlloc=237.1Mi, Sys=21.6Mi, NumGC=54","level":"stat"}
+{"@timestamp":"2025-09-15T14:14:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 5, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:15:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:15:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=7.4Mi, TotalAlloc=240.1Mi, Sys=21.6Mi, NumGC=55","level":"stat"}
+{"@timestamp":"2025-09-15T14:15:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:16:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:16:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=5.9Mi, TotalAlloc=243.1Mi, Sys=21.6Mi, NumGC=56","level":"stat"}
+{"@timestamp":"2025-09-15T14:16:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:17:15.499+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:17:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=8.8Mi, TotalAlloc=246.0Mi, Sys=21.6Mi, NumGC=56","level":"stat"}
+{"@timestamp":"2025-09-15T14:17:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:18:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:18:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=7.2Mi, TotalAlloc=249.0Mi, Sys=21.6Mi, NumGC=57","level":"stat"}
+{"@timestamp":"2025-09-15T14:18:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:19:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:19:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 3m, MEMORY: Alloc=5.5Mi, TotalAlloc=252.0Mi, Sys=21.6Mi, NumGC=58","level":"stat"}
+{"@timestamp":"2025-09-15T14:19:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 2, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:20:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:20:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=8.4Mi, TotalAlloc=254.9Mi, Sys=21.6Mi, NumGC=58","level":"stat"}
+{"@timestamp":"2025-09-15T14:20:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 5, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:21:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:21:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=6.8Mi, TotalAlloc=257.9Mi, Sys=21.6Mi, NumGC=59","level":"stat"}
+{"@timestamp":"2025-09-15T14:21:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:22:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:22:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=5.1Mi, TotalAlloc=260.9Mi, Sys=21.6Mi, NumGC=60","level":"stat"}
+{"@timestamp":"2025-09-15T14:22:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:23:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:23:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=8.1Mi, TotalAlloc=263.8Mi, Sys=21.6Mi, NumGC=60","level":"stat"}
+{"@timestamp":"2025-09-15T14:23:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:24:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:24:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 3m, MEMORY: Alloc=6.4Mi, TotalAlloc=266.8Mi, Sys=21.6Mi, NumGC=61","level":"stat"}
+{"@timestamp":"2025-09-15T14:24:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:25:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:25:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=4.7Mi, TotalAlloc=269.7Mi, Sys=21.6Mi, NumGC=62","level":"stat"}
+{"@timestamp":"2025-09-15T14:25:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:26:15.499+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:26:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=7.7Mi, TotalAlloc=272.7Mi, Sys=21.6Mi, NumGC=62","level":"stat"}
+{"@timestamp":"2025-09-15T14:26:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:27:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:27:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 3m, MEMORY: Alloc=6.0Mi, TotalAlloc=275.7Mi, Sys=21.6Mi, NumGC=63","level":"stat"}
+{"@timestamp":"2025-09-15T14:27:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:28:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:28:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=9.0Mi, TotalAlloc=278.6Mi, Sys=21.6Mi, NumGC=63","level":"stat"}
+{"@timestamp":"2025-09-15T14:28:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:29:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:29:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=7.3Mi, TotalAlloc=281.6Mi, Sys=21.6Mi, NumGC=64","level":"stat"}
+{"@timestamp":"2025-09-15T14:29:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:30:15.499+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:30:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 7m, MEMORY: Alloc=5.6Mi, TotalAlloc=284.6Mi, Sys=21.6Mi, NumGC=65","level":"stat"}
+{"@timestamp":"2025-09-15T14:30:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 18, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:31:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:31:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=8.6Mi, TotalAlloc=287.5Mi, Sys=21.6Mi, NumGC=65","level":"stat"}
+{"@timestamp":"2025-09-15T14:31:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:32:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:32:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 2m, MEMORY: Alloc=6.9Mi, TotalAlloc=290.5Mi, Sys=21.6Mi, NumGC=66","level":"stat"}
+{"@timestamp":"2025-09-15T14:32:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:33:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:33:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=5.3Mi, TotalAlloc=293.5Mi, Sys=21.6Mi, NumGC=67","level":"stat"}
+{"@timestamp":"2025-09-15T14:33:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:34:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:34:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 2m, MEMORY: Alloc=8.3Mi, TotalAlloc=296.4Mi, Sys=21.6Mi, NumGC=67","level":"stat"}
+{"@timestamp":"2025-09-15T14:34:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 2, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:35:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:35:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=6.7Mi, TotalAlloc=299.4Mi, Sys=21.6Mi, NumGC=68","level":"stat"}
+{"@timestamp":"2025-09-15T14:35:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:36:15.499+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:36:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=5.0Mi, TotalAlloc=302.3Mi, Sys=21.6Mi, NumGC=69","level":"stat"}
+{"@timestamp":"2025-09-15T14:36:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:37:15.499+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:37:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=8.0Mi, TotalAlloc=305.3Mi, Sys=21.6Mi, NumGC=69","level":"stat"}
+{"@timestamp":"2025-09-15T14:37:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:38:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:38:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=6.4Mi, TotalAlloc=308.3Mi, Sys=21.6Mi, NumGC=70","level":"stat"}
+{"@timestamp":"2025-09-15T14:38:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:39:15.499+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:39:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 3m, MEMORY: Alloc=4.8Mi, TotalAlloc=311.2Mi, Sys=21.6Mi, NumGC=71","level":"stat"}
+{"@timestamp":"2025-09-15T14:39:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:40:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:40:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=7.8Mi, TotalAlloc=314.2Mi, Sys=21.6Mi, NumGC=71","level":"stat"}
+{"@timestamp":"2025-09-15T14:40:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:41:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:41:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=6.2Mi, TotalAlloc=317.2Mi, Sys=21.6Mi, NumGC=72","level":"stat"}
+{"@timestamp":"2025-09-15T14:41:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:42:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:42:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=4.7Mi, TotalAlloc=320.1Mi, Sys=21.6Mi, NumGC=73","level":"stat"}
+{"@timestamp":"2025-09-15T14:42:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:43:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:43:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=7.7Mi, TotalAlloc=323.1Mi, Sys=21.6Mi, NumGC=73","level":"stat"}
+{"@timestamp":"2025-09-15T14:43:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:44:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:44:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=6.1Mi, TotalAlloc=326.0Mi, Sys=21.6Mi, NumGC=74","level":"stat"}
+{"@timestamp":"2025-09-15T14:44:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:45:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:45:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 3m, MEMORY: Alloc=9.1Mi, TotalAlloc=329.0Mi, Sys=21.6Mi, NumGC=74","level":"stat"}
+{"@timestamp":"2025-09-15T14:45:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 2, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:46:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:46:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=7.5Mi, TotalAlloc=332.0Mi, Sys=21.6Mi, NumGC=75","level":"stat"}
+{"@timestamp":"2025-09-15T14:46:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:47:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:47:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 3m, MEMORY: Alloc=5.9Mi, TotalAlloc=334.9Mi, Sys=21.6Mi, NumGC=76","level":"stat"}
+{"@timestamp":"2025-09-15T14:47:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:48:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:48:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 6m, MEMORY: Alloc=8.9Mi, TotalAlloc=337.9Mi, Sys=21.6Mi, NumGC=76","level":"stat"}
+{"@timestamp":"2025-09-15T14:48:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 5, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:49:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:49:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=7.4Mi, TotalAlloc=340.9Mi, Sys=21.6Mi, NumGC=77","level":"stat"}
+{"@timestamp":"2025-09-15T14:49:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:50:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:50:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=5.8Mi, TotalAlloc=343.8Mi, Sys=21.6Mi, NumGC=78","level":"stat"}
+{"@timestamp":"2025-09-15T14:50:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:51:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:51:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=8.8Mi, TotalAlloc=346.8Mi, Sys=21.6Mi, NumGC=78","level":"stat"}
+{"@timestamp":"2025-09-15T14:51:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 5, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:52:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:52:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=7.2Mi, TotalAlloc=349.8Mi, Sys=21.6Mi, NumGC=79","level":"stat"}
+{"@timestamp":"2025-09-15T14:52:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:53:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:53:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 3m, MEMORY: Alloc=5.7Mi, TotalAlloc=352.7Mi, Sys=21.6Mi, NumGC=80","level":"stat"}
+{"@timestamp":"2025-09-15T14:53:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 2, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:54:15.499+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:54:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=8.7Mi, TotalAlloc=355.7Mi, Sys=21.6Mi, NumGC=80","level":"stat"}
+{"@timestamp":"2025-09-15T14:54:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:55:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:55:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 3m, MEMORY: Alloc=7.3Mi, TotalAlloc=358.6Mi, Sys=21.6Mi, NumGC=81","level":"stat"}
+{"@timestamp":"2025-09-15T14:55:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 2, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:56:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:56:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 3m, MEMORY: Alloc=5.7Mi, TotalAlloc=361.6Mi, Sys=21.6Mi, NumGC=82","level":"stat"}
+{"@timestamp":"2025-09-15T14:56:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 2, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:57:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:57:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 3m, MEMORY: Alloc=8.7Mi, TotalAlloc=364.6Mi, Sys=21.6Mi, NumGC=82","level":"stat"}
+{"@timestamp":"2025-09-15T14:57:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 2, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:58:15.499+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:58:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 3m, MEMORY: Alloc=7.1Mi, TotalAlloc=367.5Mi, Sys=21.6Mi, NumGC=83","level":"stat"}
+{"@timestamp":"2025-09-15T14:58:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T14:59:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T14:59:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=5.6Mi, TotalAlloc=370.5Mi, Sys=21.6Mi, NumGC=84","level":"stat"}
+{"@timestamp":"2025-09-15T14:59:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T15:00:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T15:00:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=8.5Mi, TotalAlloc=373.5Mi, Sys=21.6Mi, NumGC=84","level":"stat"}
+{"@timestamp":"2025-09-15T15:00:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T15:01:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T15:01:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=7.0Mi, TotalAlloc=376.4Mi, Sys=21.6Mi, NumGC=85","level":"stat"}
+{"@timestamp":"2025-09-15T15:01:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T15:02:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T15:02:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=5.4Mi, TotalAlloc=379.4Mi, Sys=21.6Mi, NumGC=86","level":"stat"}
+{"@timestamp":"2025-09-15T15:02:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 5, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T15:03:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T15:03:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 3m, MEMORY: Alloc=8.4Mi, TotalAlloc=382.4Mi, Sys=21.6Mi, NumGC=86","level":"stat"}
+{"@timestamp":"2025-09-15T15:03:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T15:04:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T15:04:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=6.8Mi, TotalAlloc=385.3Mi, Sys=21.6Mi, NumGC=87","level":"stat"}
+{"@timestamp":"2025-09-15T15:04:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T15:05:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T15:05:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=5.2Mi, TotalAlloc=388.3Mi, Sys=21.6Mi, NumGC=88","level":"stat"}
+{"@timestamp":"2025-09-15T15:05:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T15:06:15.499+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T15:06:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 2m, MEMORY: Alloc=8.1Mi, TotalAlloc=391.2Mi, Sys=21.6Mi, NumGC=88","level":"stat"}
+{"@timestamp":"2025-09-15T15:06:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 2, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T15:07:15.499+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T15:07:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 3m, MEMORY: Alloc=6.5Mi, TotalAlloc=394.2Mi, Sys=21.6Mi, NumGC=89","level":"stat"}
+{"@timestamp":"2025-09-15T15:07:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T15:08:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T15:08:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=4.8Mi, TotalAlloc=397.2Mi, Sys=21.6Mi, NumGC=90","level":"stat"}
+{"@timestamp":"2025-09-15T15:08:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T15:09:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T15:09:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 6m, MEMORY: Alloc=7.8Mi, TotalAlloc=400.1Mi, Sys=21.6Mi, NumGC=90","level":"stat"}
+{"@timestamp":"2025-09-15T15:09:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 6, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T15:10:15.499+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T15:10:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=6.1Mi, TotalAlloc=403.1Mi, Sys=21.6Mi, NumGC=91","level":"stat"}
+{"@timestamp":"2025-09-15T15:10:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T15:11:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T15:11:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=9.1Mi, TotalAlloc=406.1Mi, Sys=21.6Mi, NumGC=91","level":"stat"}
+{"@timestamp":"2025-09-15T15:11:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T15:12:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T15:12:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=7.4Mi, TotalAlloc=409.0Mi, Sys=21.6Mi, NumGC=92","level":"stat"}
+{"@timestamp":"2025-09-15T15:12:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T15:13:15.499+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T15:13:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=5.8Mi, TotalAlloc=412.0Mi, Sys=21.6Mi, NumGC=93","level":"stat"}
+{"@timestamp":"2025-09-15T15:13:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T15:14:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T15:14:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=8.8Mi, TotalAlloc=414.9Mi, Sys=21.8Mi, NumGC=93","level":"stat"}
+{"@timestamp":"2025-09-15T15:14:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T15:15:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T15:15:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=7.1Mi, TotalAlloc=417.9Mi, Sys=21.8Mi, NumGC=94","level":"stat"}
+{"@timestamp":"2025-09-15T15:15:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T15:16:15.499+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T15:16:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=5.6Mi, TotalAlloc=420.9Mi, Sys=21.8Mi, NumGC=95","level":"stat"}
+{"@timestamp":"2025-09-15T15:16:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T15:17:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T15:17:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 3m, MEMORY: Alloc=8.5Mi, TotalAlloc=423.8Mi, Sys=21.8Mi, NumGC=95","level":"stat"}
+{"@timestamp":"2025-09-15T15:17:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T15:18:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T15:18:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 3m, MEMORY: Alloc=6.9Mi, TotalAlloc=426.8Mi, Sys=21.8Mi, NumGC=96","level":"stat"}
+{"@timestamp":"2025-09-15T15:18:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 2, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T15:19:15.499+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T15:19:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 3m, MEMORY: Alloc=5.3Mi, TotalAlloc=429.8Mi, Sys=21.8Mi, NumGC=97","level":"stat"}
+{"@timestamp":"2025-09-15T15:19:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 3, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T15:20:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T15:20:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 3m, MEMORY: Alloc=8.3Mi, TotalAlloc=432.7Mi, Sys=21.8Mi, NumGC=97","level":"stat"}
+{"@timestamp":"2025-09-15T15:20:58.067+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T15:21:15.499+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T15:21:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 5m, MEMORY: Alloc=6.7Mi, TotalAlloc=435.7Mi, Sys=21.8Mi, NumGC=98","level":"stat"}
+{"@timestamp":"2025-09-15T15:21:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T15:22:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T15:22:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=5.1Mi, TotalAlloc=438.6Mi, Sys=21.8Mi, NumGC=99","level":"stat"}
+{"@timestamp":"2025-09-15T15:22:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T15:23:15.499+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T15:23:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 3m, MEMORY: Alloc=8.0Mi, TotalAlloc=441.6Mi, Sys=21.8Mi, NumGC=99","level":"stat"}
+{"@timestamp":"2025-09-15T15:23:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 2, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T15:24:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T15:24:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=6.4Mi, TotalAlloc=444.6Mi, Sys=21.8Mi, NumGC=100","level":"stat"}
+{"@timestamp":"2025-09-15T15:24:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T15:25:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T15:25:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 53m, MEMORY: Alloc=4.7Mi, TotalAlloc=447.5Mi, Sys=21.8Mi, NumGC=101","level":"stat"}
+{"@timestamp":"2025-09-15T15:25:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 118, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T15:26:15.504+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T15:26:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 9m, MEMORY: Alloc=7.7Mi, TotalAlloc=450.5Mi, Sys=21.8Mi, NumGC=101","level":"stat"}
+{"@timestamp":"2025-09-15T15:26:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 8, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T15:27:15.498+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T15:27:57.566+08:00","caller":"stat/usage.go:61","content":"CPU: 6m, MEMORY: Alloc=6.1Mi, TotalAlloc=453.5Mi, Sys=21.8Mi, NumGC=102","level":"stat"}
+{"@timestamp":"2025-09-15T15:27:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 7, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T15:28:15.499+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2025-09-15T15:28:57.565+08:00","caller":"stat/usage.go:61","content":"CPU: 4m, MEMORY: Alloc=9.1Mi, TotalAlloc=456.4Mi, Sys=21.8Mi, NumGC=102","level":"stat"}
+{"@timestamp":"2025-09-15T15:28:58.068+08:00","caller":"load/sheddingstat.go:61","content":"(rpc) shedding_stat [1m], cpu: 4, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2025-09-15T15:29:15.499+08:00","caller":"stat/metrics.go:210","content":"(meeting.rpc) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}

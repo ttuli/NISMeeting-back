@@ -1,0 +1,53 @@
+syntax = "proto3";
+
+package meeting;
+
+option go_package = "./meeting";
+
+message MeetingEntity {
+  string meetingId       = 1;
+  string meetingName     = 2;
+  string meetingPassword = 3;
+  string description     = 4;
+  string hostId          = 5;
+  string hostName        = 6;
+  int64  startTime       = 7;  // 时间戳
+  int64  endTime         = 8;  // 时间戳
+}
+
+message CreateMeetingReq {
+    string meetingName     = 1;
+    string hostName        = 2;
+    string description     = 3;
+    string meetingPassword = 4;
+    string hostId          = 5;
+}
+message CreateMeetingResp {
+    MeetingEntity info = 1;
+    string token = 2;
+}
+
+message HistoryMeetingReq {
+    string userId = 1;
+}
+message HistoryMeetingResp {
+    repeated MeetingEntity list = 1;
+}
+
+message JoinMeetingReq {
+    string meetingId = 1;
+    string userId = 2;
+    string userName = 3;
+    string meetingPassword = 4;
+}
+message JoinMeetingResp {
+    string token = 1;
+}
+
+service Meeting {
+    rpc CreateMeeting(CreateMeetingReq) returns (CreateMeetingResp);
+
+    rpc JoinMeeting(JoinMeetingReq) returns (JoinMeetingResp);
+
+    rpc HistoryMeeting(HistoryMeetingReq) returns (HistoryMeetingResp);
+}

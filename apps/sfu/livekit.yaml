@@ -1,0 +1,61 @@
+# =========================
+# 端口配置
+# =========================
+port: 7880           # 信令 / API 端口
+bind_addresses:
+  - 0.0.0.0
+rtc:
+  tcp_port: 7881     # WebRTC TCP 端口
+  port_range_start: 50000
+  port_range_end: 60000
+  stun_servers:
+    - "stun.l.google.com"
+    - "stun1.l.google.com"
+
+# =========================
+# Redis 配置（可选，多实例用）
+# =========================
+redis:
+  address: 127.0.0.1:6379
+  # password: your_redis_password
+  # db: 0
+
+# =========================
+# API 密钥配置
+# keys 是字典形式，键=API Key，值=Secret
+# =========================
+keys:
+  livekit_web: d8f7e2c3-9b6a-4a5d-8f1b-3e0c9f2a7d1c
+  NISMeeting: d8f7e2c3-9b6a-4a5d-8f1b-3e0c9f2a7d1c
+
+# =========================
+# 房间配置
+# =========================
+room:
+  empty_timeout: 5      # 最后一个参与者离开后多久自动清理房间
+  departure_timeout: 10  # 离开后保留时间
+  max_participants: 50    # 可选，房间最大人数
+
+
+# =========================
+# TURN 配置（可选）
+# =========================
+turn:
+  enabled: false
+  # 如果有自建 TURN 服务器
+  # urls:
+  #   - "turn:turn.example.com:3478"
+  #   - "turns:turn.example.com:5349?transport=tcp"
+  # username: livekit
+  # credential: somepassword
+
+# =========================
+# 日志配置
+# =========================
+logging:
+  level: info
+
+# =========================
+# 开发模式
+# =========================
+development: true  # 生产环境请改为 false

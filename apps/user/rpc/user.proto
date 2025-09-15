@@ -1,0 +1,60 @@
+syntax = "proto3";
+
+package user;
+
+option go_package = "./user";
+
+message UserEntity {
+    string userId = 1;
+    string phone = 2;
+    string nickName = 3;
+    int32 sex = 4;
+    string personalSignature = 5;
+    int64 createTime = 6;
+    string areaName = 7;
+    string areaCode = 8;
+}
+
+message LoginReq {
+    string phone = 1;
+    string password = 2;
+}
+
+message LoginResp {
+    UserEntity user = 1;
+    string token = 2;
+}
+
+message RegisterReq {
+    string phone = 1;
+    string password = 2;
+}
+message RegisterResp {
+    
+}
+
+message updateInfoReq {
+    UserEntity user = 1;
+}
+message updateInfoResp {
+    UserEntity user = 1;
+}
+
+message PingReq {
+    string id = 1;
+}
+message PingResp {
+
+}
+
+service User {
+  rpc Login(LoginReq) returns (LoginResp);
+
+  rpc Register(RegisterReq) returns (RegisterResp);
+
+  rpc UpdateInfo(updateInfoReq) returns (updateInfoResp);
+
+  rpc Ping(PingReq) returns(PingResp);
+
+  rpc Offline(PingReq) returns(PingResp);
+}

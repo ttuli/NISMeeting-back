@@ -1,0 +1,7 @@
+host: '14.103.171.137'
+port: 8848
+namespace: 'fa3e8343-a528-4d0f-805d-bf12eb5c6f97'
+user: 'nacos'
+password: 'nacos'
+dataid: 'meeting.api'
+group: 'dev'

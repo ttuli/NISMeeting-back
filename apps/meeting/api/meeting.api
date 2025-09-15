@@ -1,0 +1,65 @@
+syntax = "v1"
+
+type (
+	SingleMember {
+		Uid  string `json:"uid"`
+		Name string `json:"name"`
+	}
+	MeetingEntity {
+		MeetingId   string `json:"meetingId"`
+		MeetingName string `json:"meetingName"`
+		Description string `json:"description"`
+		HostId      string `json:"hostId"`
+		HostName    string `json:"hostName"`
+		StartTime   int64  `json:"startTime"`
+		EndTime     int64  `json:"endTime"`
+	}
+)
+
+type (
+	CreateMeetingReq {
+		MeetingName     string `json:"meetingName"`
+		Description     string `json:"description"`
+		MeetingPassword string `json:"meetingPassword"`
+		HostId          string `json:"hostId"`
+		HostName        string `json:"hostName"`
+	}
+	CreateMeetingResp {
+		Info  MeetingEntity `json:"info"`
+		Token string        `json:"token"`
+	}
+	JoinMeetingReq {
+		MeetingId       string `json:"meetingId"`
+		UserId          string `json:"userId"`
+		UserName        string `json:"userName"`
+		MeetingPassword string `json:"meetingPassword"`
+	}
+	JoinMeetingResp {
+		Token string `json:"token"`
+	}
+	HistoryMeetingReq {
+		UserId string `json:"userId"`
+	}
+	HistoryMeetingResp {
+		List []*MeetingEntity `json:"list"`
+	}
+)
+
+@server (
+	group: meeting
+	jwt:   JwtAuth
+)
+service meeting {
+	@doc "创建会议"
+	@handler createMeeting
+	post /createMeeting (CreateMeetingReq) returns (CreateMeetingResp)
+
+	@doc "加入会议"
+	@handler joinMeeting
+	post /joinMeeting (JoinMeetingReq) returns (JoinMeetingResp)
+
+	@doc "历史会议"
+	@handler historyMeeting
+	post /historyMeeting (HistoryMeetingReq) returns (HistoryMeetingResp)
+}
+

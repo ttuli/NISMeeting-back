@@ -1,0 +1,29 @@
+syntax = "v1"
+
+type (
+	PolicyToken {
+		Policy           string `json:"policy"`
+		SecurityToken    string `json:"security_token"`
+		SignatureVersion string `json:"x_oss_signature_version"`
+		Credential       string `json:"x_oss_credential"`
+		Date             string `json:"x_oss_date"`
+		Signature        string `json:"signature"`
+		Host             string `json:"host"`
+		Dir              string `json:"dir"`
+	}
+	GetSignatureReq  {}
+	GetSignatureResp {
+		Data PolicyToken `json:"data"`
+	}
+)
+
+@server (
+	group: file
+	jwt:   JwtAuth
+)
+service file {
+	@doc "getSignature"
+	@handler getSignature
+	get /getSignature (GetSignatureReq) returns (GetSignatureResp)
+}
+
